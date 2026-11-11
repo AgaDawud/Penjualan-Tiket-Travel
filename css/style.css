@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    box-shadow: 100px;
+    background-color: rgb(200, 255, 250);
+    height: 68px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+}
+
+img.logo{
+    background-size: cover;
+    width: 150px;
+    margin-left: 18px;
+}
+
+img.menu{
+    display: none;
+}
+
+.nav ul {
+    justify-content: end;
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav ul li{
+    text-align: end;
+    align-items: center;
+}
+
+.nav ul li a.btn-1{
+    font-size: 18px;
+    padding: 2px 5px;
+    margin: 16px;
+    color: #001eff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(200, 255, 250);
+    transition: 0.4s;
+}
+
+.nav ul li a:hover{
+    border-bottom: 2px solid rgb(0, 0, 181);
+    color: rgb(0, 0, 181);
+    transition: 0.4s;
+}
+
+.nav ul li a:active{
+    border-bottom: 2px solid rgb(0, 0, 181);
+    color: rgb(0, 0, 181);
+}
+
+.jumbotron-png {
+    display: block;
+    background-image: url('../img/bus_keluaran_terbaru_tahun_2024_dengan_nama_My_Travel_dan_berlatar_belakang_terminal.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 235px;
+    padding-bottom: 165px;
+    position: relative;
+    width: 100%;
+}
+
+.jumbotron-png::after {
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%);
+}
+
+
+h1.title{
+    font-size: 53px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+p.desc{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    z-index: 3;
+    margin-left: 65px;
+    margin-right: 65px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.btn{
+    position: relative;
+    margin-top: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 4;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    transition: 0.4s;
+    color: white;
+}
+
+.btn-2{
+    position: relative;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 4;
+    font-size: 15px;
+    border-radius: 25px;
+    background: linear-gradient(30deg, rgba(103,254,239,1) 0%, rgba(0,236,154,1) 51%, rgba(0,255,158,1) 100%);
+    border: 3px solid rgb(0, 68, 23);
+    color: rgb(31, 31, 31);
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 3px solid rgb(69, 69, 69);
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+}
+
+.btn-2:hover{
+    background: linear-gradient(30deg, rgba(120,216,255,1) 0%, rgba(39,255,187,1) 51%, rgba(46,255,175,1) 100%);
+    border: 3px solid rgb(0, 26, 6);
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col{
+    text-align: center;
+    padding: 15px;
+}
+
+.col-2{
+    padding: 15px;
+}
+
+.col-1{
+    flex: 1;
+}
+
+.title-1{
+    margin-top: 65px;
+    font-weight: bold;
+    font-size: 45px;
+    flex: 1;
+    text-align: none;
+}
+
+.question{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.desc-2{
+    margin-top: 10px;
+    text-align: justify;
+    margin-right: 150px;
+}
+
+.bg-2{
+    display: block;
+    position: relative;
+    width: 100%;
+    background-image: url('../img/snapedit_1724059753851.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-2::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%);
+}
+
+.title-3{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 65px;
+    color: rgb(184, 168, 255);
+    z-index: 3;
+    position: relative;
+}
+
+.blue-1{
+    color: rgb(125, 196, 255);
+}
+
+.blue-2{
+    color: rgb(57, 196, 255);
+}
+
+.card{
+    display: block;
+    border: 3px solid rgb(146, 255, 233);
+    background-image: url('../img/buatlah_1_gambar_minibus_berlatar_belakang_terminal.png');
+    background-position: center;
+    background-size: cover;
+    padding: 35px;
+    position: relative;
+    padding-top: 20px;
+    border-radius: 18px;
+    margin: 40px;
+    z-index: 2;
+}
+
+.card-3{
+    border: 3px solid rgb(0, 151, 121);
+    padding: 35px;
+    padding-top: 20px;
+    border-radius: 18px;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 40px;
+}
+
+.card::after{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%);
+}
+
+.card-4{
+    display: block;
+    border: 3px solid rgb(146, 255, 233);
+    background-image: url('../img/buatlah_1_gambar_bus_berlatar_belakang_terimal.png');
+    background-position: center;
+    background-size: cover;
+    padding: 35px;
+    position: relative;
+    padding-top: 20px;
+    border-radius: 18px;
+    margin: 40px;
+    z-index: 3;
+}
+
+.card-4::after{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%);
+}
+
+.card-title{
+    z-index: 2;
+    color: rgb(136, 255, 215);
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-3{
+    z-index: 4;
+    position: relative;
+    margin-top: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: 3.5px solid rgb(0, 36, 122);
+    color: rgb(0, 43, 99);
+    background-color: rgb(94, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.4s ;
+}
+
+.btn-3:hover{
+    border: 3.5px solid rgb(0, 28, 94);
+    color: rgb(0, 40, 93);
+    background-color: rgb(107, 181, 255);
+    cursor: pointer;
+}
+
+.desc-3{
+    left: 0;
+    margin-right: 45px;
+    text-align: justify;
+    color: white;
+    position: relative;
+    z-index: 8;
+    justify-content: left;
+}
+
+.features{
+    color: white;
+    position: relative;
+    z-index: 6;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+hr{
+    border: 2.5px solid white;
+    z-index: 7;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.price-all{
+    margin-bottom: 10px;
+    color: rgb(134, 255, 217);
+    position: relative;
+    z-index: 5;
+}
+
+.price{
+    font-family: 'New Amsterdam', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.price-title{
+    font-family: 'New Amsterdam', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.title-4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.desc-4{
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.block{
+    display: block;
+}
+
+.input-container{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+label{
+    display: block;
+}
+
+.input-1{
+    width: 65%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.input-2{
+    width: 65%;
+    padding: 10px;
+    height: 18vh;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.card-1{
+    border: 3px solid rgb(0, 100, 84);
+    padding: 35px;
+    padding-top: 20px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ml-5{
+    margin-left: 35px;
+}
+
+.foot{
+    padding: 15px;
+    background-color: aquamarine;
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 1092px){
+    .nav {
+        display: block;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    img.logo{
+        margin: 20 auto 10px;
+    }
+
+    .card{
+        padding: 40px;
+    }
+
+    .nav-left{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    img.menu{
+        display: block;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+
+    .nav ul {
+        position: fixed;
+        width: 50%;
+        margin-top: 9px;
+        padding-top: 10px;
+        height: 100%;
+        background-color: rgb(142, 255, 246);
+        display: block;
+        list-style: none;
+        left: -100%;
+        transition: all .5s;
+    }
+
+    .nav ul li{
+        text-align: end;
+        align-items: center;
+    }
+    
+    .nav ul li a.btn-1{
+        margin: 30px;
+        border: none;
+        text-align: left;
+        display: block;
+        font-size: 20px;
+    }
+    
+    .nav ul li a.btn-1:hover, :active{
+        border: none;
+        color: rgb(0, 0, 104);
+    }
+
+    .btn-3{
+        margin-top: 75px;
+    }
+
+    .desc-2{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    .col{
+        text-align: center;
+        width: 100%;
+    }
+
+    .card{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .card-4{
+        width: 52%;
+        text-align: center;
+        margin: auto;
+    }
+
+    
+
+    .card-3{
+        width: 65%;
+        margin: auto;
+    }
+
+    .col{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .col-1{
+        text-align: center;
+    }
+     
+    .desc-3{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .desc-2{
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width: 598px){
+    .nav ul {
+        width: 100%;
+    }
+
+    .col{
+        padding: 8px;
+    }
+
+    .desc-3{
+        font-size: 13px;
+    }
+
+    .desc-2{
+        margin-left: 50px;
+    }
+
+    .price-all{
+        margin-bottom: 20px;
+    }
+    
+    .price{
+        font-size: 20px;
+    }
+    
+    .price-title{
+        font-size: 55px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .title-1{
+        font-size: 30px;
+    }
+
+    .question{
+        font-size: 20px;
+    }
+
+    .title-3{
+        margin-bottom: 30px;
+    }
+
+    .card-3{
+        width: 75%;
+        margin-top: 65px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input-1{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .input-2{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .card-3{
+        margin: auto;
+    }
+
+    .card-4{
+        margin-bottom: 32px;
+    }
+
+    .main{
+        justify-content: center;
+    }
+}
