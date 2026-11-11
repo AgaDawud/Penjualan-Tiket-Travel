@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/bus_keluaran_terbaru_tahun_2024_dengan_nama_My_Travel_dan_berlatar_belakang_terminal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    background-color: rgb(151, 210, 255);
+    border: 2px solid rgb(0, 33, 154);
+    border-radius: 10px;
+    width: 65vh;
+    padding: 20px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 65px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.label-form{
+    position: absolute;
+}
+
+.input-container{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.select-form{
+    margin-top: 25px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+.input-form{
+   margin-top: 25px;
+   width: 100%;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border-radius: 10px;
+   border: 2px solid gray;
+   transition: 0.4s;
+   -webkit-transition: 0.4s;
+}
+
+.select-form{
+    margin-top: 25px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    cursor: pointer;
+}
+
+option{
+    cursor: pointer;
+}
+
+.input-form:hover, .input-form:active{
+    border: 2px solid black;
+    transition: 0.4s;
+   -webkit-transition: 0.4s;
+}
+
+.select-form:hover{
+    border: 2px solid black;
+    transition: 0.4s;
+   -webkit-transition: 0.4s;
+}
+
+.btn{
+    border-radius: 20px;
+    background-color: rgb(0, 247, 255);
+    width: 55%;
+    font-weight: bold;
+    color: blue;
+    border: 2px solid blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 255, 166);
+    transition: 0.4s;
+}

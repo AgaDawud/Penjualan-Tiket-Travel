@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <span class="nav-left">
+            <img class="logo" src="img/my-travel.png" >
+            <img class="menu" onclick="btnMenu()" src="img/menu_40dp_0000F5_FILL0_wght400_GRAD0_opsz40.svg" >
+        </span>
+        <ul id="List">
+            <li><a class="btn-1">Home</a></li>
+            <li><a class="btn-1">About</a></li>
+            <li><a class="btn-1">Price</a></li>
+            <li><a class="btn-1">Contact</a></li>
+        </ul>
+    </div>
+    <div class="jumbotron-png">
+        <h1 class="title">MY TRAVEL</h1>
+        <p class="desc">Mengantarkan Anda ke Tujuan yang Anda inginkan</p>
+        <span class="flex">
+            <center>
+                <button class="btn">Pesan Tiket</button>
+                <button class="btn-2">Lokasi</button>
+            </center>
+        </span>
+    </div>
+        <div class="row">
+            <div class="col">
+                <img class="img-logo" src="img/logo-2.png" style="width: 35%; margin-top: 65px;">
+            </div>
+            <div class="col-1">
+                <div class="title-1">Tentang My Travel</div>
+                <p class="question">Apa itu My Travel ?</p>
+                <p class="desc-2">My Travel adalah aplikasi berbasis digital yang menyediakan 
+                    solusi lengkap untuk pembelian dan pengelolaan tiket perjalanan. Aplikasi ini memungkinkan pengguna untuk mencari, memesan, dan membayar tiket perjalanan. Aplikasi ini di khususkan untuk membeli tiket travel dan bus saja dengan tingkat beberapa kelas, seperti kelas ekonomi, bisnis, dan eksekutif.<br />
+                </p>
+            </div>
+        </div>
+        <div class="bg-2">
+            <div class="relative">
+                <div class="title-3">
+                    <span class="blue-1">Price</span> 
+                    <span class="blue-2">List</span> 
+                </div>
+                <div class="row-2">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-title">Ekonomi</div>
+                            <div class="price-all">
+                                <span class="price">Rp</span>
+                                <span class="price-title">75.000</span>
+                                <span class="price">,00</span>
+                            </div>
+                            <div class="features">Kelebihan</div>
+                            <hr>
+                            <p class="desc-3">
+                            - Dapat Makan dan Minum <br />
+                            - Antar kota dan provinsi <br />
+                            - 2 Pilihan kendaraan: <br />
+                                 Bus dan Elf Long<br />
+                            </p>
+                            <center>
+                                <button id="btn-1" onclick="btnhref_ekonomi()" class="btn-3" style="margin-top: 95px;">Check Out</button>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-4">
+                            <div class="card-title">Eksekutif</div>
+                            <div class="price-all">
+                                <span class="price">Rp</span>
+                                <span class="price-title">450.000</span>
+                                <span class="price">,00</span>
+                            </div>
+                            <div class="features">Kelebihan</div>
+                            <hr>
+                            <p class="desc-3">
+                                - Dapat Makan dan Minum <br />
+                                - Tempat Tidur <br />
+                                - Ruangan Private <br />
+                                - Antar kota dan provinsi <br />
+                                - Dapat Snack Ringan <br />
+                                - 1 Pilihan kendaraan: Bus <br />
+                            </p>
+                            <center>
+                                <button id="btn-2" onclick="btnhref_eksekutif()" class="btn-3">Check Out</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title-4">Kontak Kami</div>
+        <div class="desc-4">Silahkan tinggalkan pesan anda, pada kolom yang tersedia</div>
+        <div class="card-3">
+            <div class="main">
+                <div class="input-container">
+                    <label for="name">Username</label>
+                    <input class="input-1" type="text" name="" id="">
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input class="input-1" type="email" name="" id="">
+                </div>
+                <div class="input-container">
+                    <label for="messagge">Pesan Anda</label>
+                    <textarea class="input-2" type="text" name="" id=""></textarea>
+                </div>
+                <button class="btn-2 ml-5">Kirim</button>
+            </div>
+        </div>
+        <footer class="foot">
+            <center>
+                &copy; My Travel 2024
+            </center>
+        </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
